@@ -4,7 +4,6 @@
 
 #ifndef ARCHI_SYS_INVOCATEUR_H
 #define ARCHI_SYS_INVOCATEUR_H
-#include "daemon.h"
 
 void help();
 

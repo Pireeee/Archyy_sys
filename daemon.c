@@ -35,7 +35,7 @@ void startdemon(){
     if(pid > 0){
         exit(0);
     }
-    FILE* ficpid = open(tempofic, w);
+    FILE* ficpid = fopen(TEMPOFIC, "w");
     fprintf(ficpid, "%d", pid );
     fclose(ficpid);
     while (69){

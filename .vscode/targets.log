@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Apr  7 11:15:54 2022
+# Make data base, printed on Thu Apr  7 11:28:22 2022
 
 # Variables
 
@@ -184,7 +184,10 @@ daemon.o: daemon.c
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-04-07 11:14:41.6398271
+#  Last modified 2022-04-07 11:28:15.6265489
+ 
+make: *** No rule to make target 'all'.  Stop.
+
 #  File has been updated.
 #  Successfully updated.
 
@@ -247,8 +250,6 @@ main.o: main.c
 # strcache performance: lookups = 40 / hit rate = 45%
 # hash-table stats:
 # Load=22/8192=0%, Rehash=0, Collisions=1/40=2%
-# Finished Make data base on Thu Apr  7 11:15:54 2022
+# Finished Make data base on Thu Apr  7 11:28:22 2022
 
  
-make: *** No rule to make target 'all'.  Stop.
-

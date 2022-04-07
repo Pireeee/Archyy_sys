@@ -1,8 +1,19 @@
 //
 // Created by franc on 07/04/2022.
 //
-
+#include <fcntl.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <string.h>
+#include <unistd.h>
+#include <string.h>
 #include "invocateur.h"
+#include "daemon.h"
+
+
 void help(){
     printf("WALLA TU TE DEMERDE FRERE\n");
 }

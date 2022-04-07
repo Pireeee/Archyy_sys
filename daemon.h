@@ -1,8 +1,6 @@
 //
 // Created by franc on 30/03/2022.
 //
-#include <stdio.h>
-#include <stdlib.h>
 #ifndef ARCHI_SYS_DEAMON_H
 #define ARCHI_SYS_DEAMON_H
 #define TEMPOFIC "/tmp/pid.txt"
