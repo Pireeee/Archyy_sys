@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/pire/Architecture_Systeme/Archyy_sys'
+gcc -c main.c
+gcc -c daemon.c
+gcc -o programme main.o daemon.o
+make: Leaving directory '/home/pire/Architecture_Systeme/Archyy_sys'
+ 
