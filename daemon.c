@@ -39,6 +39,6 @@ void startdemon(){
     fprintf(ficpid, "%d", pid );
     fclose(ficpid);
     while (69){
-
+        printf("debugg message");
     }
 }
